@@ -40,18 +40,8 @@ a {
     top: 27%;
     left: 50%;
     /* height: 100px; */
-    width: 1000px;
-    margin-left: -500px;
-}
-
-.nav .nav-items .item img{
-    width: 100px;
-    height: 50px;
-}
-.nav .nav-items .item span {
-    position: absolute;
-    top: 0%;
-    left: 0;
+    width: 950px;
+    margin-left: -475px;
 }
 
 .nav .item {
@@ -63,7 +53,10 @@ a {
     margin-right: 50px;
     border-radius: 50px;
     border-bottom: 1px solid #ffd700;
+}
 
+.nav .item:last-child{
+    margin-right: 0;
 }
 
 .nav .item a {
