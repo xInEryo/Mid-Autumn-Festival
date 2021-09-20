@@ -111,9 +111,17 @@ a {
     /* margin: 5% 0 5% 0; */
     margin: 2% auto;
 }
+
 .moon {
     position: absolute;
     top: 0;
     left: 0;
     width: 40%;
+}
+
+.zq-fonts {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 30%;
 }
