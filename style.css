@@ -37,6 +37,7 @@ a {
 
 .nav {
     position: absolute;
+    z-index: 1;
     top: 27%;
     left: 50%;
     /* height: 100px; */
@@ -116,7 +117,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 40%;
+    width: 45%;
 }
 
 .zq-fonts {
@@ -124,4 +125,8 @@ a {
     top: 10%;
     right: 0;
     width: 30%;
+}
+
+.current {
+    text-shadow: 0 0 5px #ffd700 , 0 0 10px #ffd700;
 }
